@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(212, 207, 207);
+}
+.wrapper {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.header {
+    background-color: rgb(240, 240, 247);
+    height: 150px;
+    
+    
+}
+.header h1 {
+    float: left;
+    padding: 5px;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+.header p {
+    float: right;
+    padding: 45px;
+    font-size: 20px;
+    color: gray;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+    
+}
+nav {
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgb(223, 157, 35);
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    
+
+}
+nav ul li {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 70px;
+    
+    
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(218, 212, 212);
+}
+    
+    
+    
+nav ul li a:hover {
+    background-color: rgb(207, 151, 46);
+}
+
+.content {
+    display: flex;
+    margin-top: 30px;
+}
+.content  .left {
+    background-color: rgb(252, 251, 250);
+    width:  35%;
+
+}
+.content .right {
+    
+    width: 65%;
+}
+.footer {
+    
+    height: 100px;
+}
+.left ul  {
+    font-size:  px;
+}
+h3 {
+   padding-left: 20px;
+   font-size: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left ul li {
+    padding: 5px;
+    margin-top: 10px;
+    
+    
+}
+.left ul li a {
+    text-decoration: none;
+    color: orange;
+    
+    
+}
+.left ul li a:hover {
+    text-decoration: underline;
+}
+.left p {
+    padding: 0 20px 0 20px;
+    text-align: justify;
+    line-height: 2em;
+    
+}
+.right h3 {
+    
+    font-size: 35px;
+    letter-spacing: -2px;
+
+}
+.right p {
+    padding-left: 20px;
+    line-height: 2em;
+}
+.right a {
+    color: orange;
+}
+.right a:hover {
+    text-decoration: none;
+}
+.right .readmore  {
+   
+    text-align: right;
+    padding-right: 2em;
+}
+.right .readmore a {
+    color: orange;
+    border: 0.5px solid rgb(180, 179, 179);
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.right .readmore a:hover {
+    background-color: rgb(108, 81, 30);
+}
+.footer {
+    border-top: 1px solid gray;
+}
+.footer p {
+    text-align: center;
+   padding-top: 30px;
+}
+.footer p a {
+    color: orange;
+}
+    
+
+
+
+
+
